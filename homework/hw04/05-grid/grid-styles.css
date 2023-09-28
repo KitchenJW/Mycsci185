@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: pink;
+}
+
+.grid-container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    /* grid-template-rows: repeat(5,20%); */
+    /* you will add addition rules for the container here  */
+}
+.grid-container>div{
+    background-color: #ffffff;
+    border: #000000 1px solid;
+    min-height: 20vh;
+}
+.grid-container div:nth-child(odd){
+    grid-column: 1 / span 3;
+}
+.grid-container div:nth-child(even){
+    grid-column: 3 / span 3;
+}
+
+
+/* create your child rules here:  */

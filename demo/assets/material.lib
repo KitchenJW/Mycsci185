@@ -1,0 +1,92 @@
+# Aspose.3D Wavefront OBJ Exporter
+# Copyright 2004-2023 Aspose Pty Ltd.
+# File created: 05/04/2023 14:25:58
+
+newmtl mat_53220892
+	Ka 0.2 0.2 0.2
+	Kd 1 1 1
+	d 1
+	Tr 0
+	illum 2
+	Ks 1 1 1
+	Ns 20
+newmtl mat_39038951
+	Ka 0.2 0.2 0.2
+	Kd 1 1 1
+	d 1
+	Tr 0
+	illum 2
+	Ks 1 1 1
+	Ns 20
+newmtl mat_51914586
+	Ka 0.2 0.2 0.2
+	Kd 1 1 1
+	d 1
+	Tr 0
+	illum 2
+	Ks 1 1 1
+	Ns 20
+newmtl mat_56995414
+	Ka 0.2 0.2 0.2
+	Kd 1 1 1
+	d 1
+	Tr 0
+	illum 2
+	Ks 1 1 1
+	Ns 20
+newmtl mat_39427093
+	Ka 0.2 0.2 0.2
+	Kd 1 1 1
+	d 1
+	Tr 0
+	illum 2
+	Ks 1 1 1
+	Ns 20
+newmtl mat_19350375
+	Ka 0.2 0.2 0.2
+	Kd 1 1 1
+	d 1
+	Tr 0
+	illum 2
+	Ks 1 1 1
+	Ns 20
+newmtl mat_44461813
+	Ka 0.2 0.2 0.2
+	Kd 1 1 1
+	d 1
+	Tr 0
+	illum 2
+	Ks 1 1 1
+	Ns 20
+newmtl mat_64787329
+	Ka 0.2 0.2 0.2
+	Kd 1 1 1
+	d 1
+	Tr 0
+	illum 2
+	Ks 1 1 1
+	Ns 20
+newmtl mat_61818916
+	Ka 0.2 0.2 0.2
+	Kd 1 1 1
+	d 1
+	Tr 0
+	illum 2
+	Ks 1 1 1
+	Ns 20
+newmtl mat_66065549
+	Ka 0.2 0.2 0.2
+	Kd 1 1 1
+	d 1
+	Tr 0
+	illum 2
+	Ks 1 1 1
+	Ns 20
+newmtl mat_41362759
+	Ka 0.2 0.2 0.2
+	Kd 1 1 1
+	d 1
+	Tr 0
+	illum 2
+	Ks 1 1 1
+	Ns 20

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <script src="main.js"></script>
+    <title>Quest</title>
+</head>
+
+<body>
+    <section id="screen1" class="scene1">
+        <h2>screen1</h2>
+        <div>
+            <button onclick="showScreen('#screen1', '#screen2')">Show Screen2</button>
+            <button onclick="showScreen('#screen1', '#screen3')">Show Screen3</button>
+        </div>
+    </section>
+    <section id="screen2" class="scene2 hide">
+        <h2>screen2
+            <div>
+                <button onclick="showScreen('#screen2', '#screen1')">Show Screen1</button>
+                <button onclick="showScreen('#screen2', '#screen3')">Show Screen3</button>
+            </div>
+    </section>
+    <section id="screen3" class="scene3 hide">
+        <h2>screen3
+            <div>
+                <button onclick="showScreen('#screen3', '#screen1')">Show Screen1</button>
+                <button onclick="showScreen('#screen3', '#screen2')">Show Screen2</button>
+            </div>
+    </section>
+</body>
+
+</html>

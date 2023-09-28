@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20vh 20vw;
+    background-color: #e8ba8c;
+}
+
+.section-container {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section-container section {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background: #CCC;
+}
+
+
+#section1 {
+    background: #0c7474;
+    color: white;
+    transition: all 0.3s ease-out;
+}
+
+#section1:hover {
+    background: purple;
+    width: 220px;
+    height: 220px;
+}
+
+#section2 {
+    background-image: radial-gradient(at top left, #f291e8,
+            #92d8ef);
+    color: white;
+    transition: all 0.3s ease-out;
+}
+
+#section2:hover {
+    background-image: radial-gradient(at bottom right, #c2156c,
+            #093a4b);
+    width: 220px;
+    height: 220px;
+    border-radius: 15%;
+    transform: rotate(-5deg);
+}
+
+#section3 {
+    background-image: radial-gradient(at top right, #1acd82,
+            #d91a80);
+    color: white;
+    transition: all 0.3s ease-out;
+}
+
+#section3:hover {
+    background-image: radial-gradient(at bottom left, #294a2e,
+            #210654);
+    width: 220px;
+    height: 220px;
+    border-radius: 15%;
+    transform: skew(5deg);
+}
+
+#section4 {
+    background-image: url('../../../homework/hw05/images/bonita_vista.png');
+    transition: all 1s ease-out;
+}
+
+#section4:hover,
+#section4:active {
+    color: #1acd82;
+    border-radius: 15%;
+    transform: rotate(360deg) translate(-30px, -30px);
+    filter: brightness(150%) contrast(75%);
+}
+#section5 {
+    background-image: url('../../../homework/hw05/images/bonita_vista2.png');
+    transition: all 0.5s ease-out;
+}
+
+#section5:hover,
+#section5:active {
+    font-size: x-large;
+    font-weight: bolder;
+    color: #300c61;
+    border-radius: 15%;
+    transform: translate(20px, 20px);
+    filter: brightness(250%) contrast(375%);
+}
+#section6 {
+    background-image: url('../../../homework/hw05/images/snake_river.PNG');
+    transition: all 0.5s ease-out;
+}
+
+#section6:hover,
+#section6:active {
+    font-size: x-large;
+    font-weight: bolder;
+    color: #990b0b;
+    border-radius: 15%;
+    transform: translate(20px, -20px) rotate(-5deg);
+    filter: blur(1px) grayscale(75%);
+}
+
+
+a:link {
+    padding: 0.25rem 0.75rem;
+    background-color: #d06c0f;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    color: #820b2a;
+    transition: all 0.25s ease-out;
+}
+
+a:hover,
+a:active {
+    background-color: #0c7474;
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: wavy;
+    color: #c82eac;
+}
+
+a:focus {
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: double;
+    color: #210654;
+}
+
+a:visited {
+    font-weight: 100;
+    font-size: small;
+    color: #082d39;
+    text-decoration: line-through;
+}
+
+.new::before {
+    font-family: "Font Awesome 5 Free";
+    margin-left: 0.5rem;
+    font-weight: 500;
+    content: \f004;
+}

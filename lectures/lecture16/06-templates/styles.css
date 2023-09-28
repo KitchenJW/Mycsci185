@@ -1,0 +1,34 @@
+body {
+    font-size: 1.2em;
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+a {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+button {
+    position: fixed;
+    top: 50px;
+    left: 10px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 4px;
+    max-width: 220px;
+}
+
+img {
+    width: 200px;
+    vertical-align: middle;
+}

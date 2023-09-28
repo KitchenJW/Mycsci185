@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    column-gap: 2rem;
+    border: #9292e3 1px solid;
+    padding: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 1rem;
+    color: #9292e3;
+}

@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    background-color: #45425a;
+    color: white;
+    padding: 20px;
+}
+header a {
+    font-family: fantasy, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    color: #bce5d6;
+    text-decoration: none;
+}
+
+main {
+    margin: 0vw 15vw;
+}
+
+main>p, footer p {
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+footer {
+    background-color: #EEE;
+    padding: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+ol {
+    margin-bottom: 40px;
+}
+
+code {
+    background-color: #EEE;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+section:nth-child(odd) {
+    background-color: #EEEEEE;
+}
+section:nth-child(odd)>img {
+    border-radius: 50%;
+}
+
+section:nth-child(even) {
+    background-color: #bce5d6;
+}
+
+.card {
+    height: 28rem;
+    border: solid 2px #000;
+    padding: 10px;
+}
+
+.card img {
+    width: 250px;
+    height:250px;
+    border: solid 2px #000;
+}
+
+footer {
+    background-color: #EEE;
+    padding: 30px;
+    margin-top: 30px;
+    text-align: center;
+}

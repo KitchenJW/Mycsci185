@@ -1,0 +1,54 @@
+body * {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+/*
+Part 2: Put the main element (the card's parent container)
+into flex mode (display: flex) and adjust the 
+justify-content and align-items properties to center the card.
+*/
+main {
+    min-height: 100vh;
+    background-color: lemonchiffon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 4rem;
+}
+.card {
+    width: 25%;
+    height: 50%;
+    border: double hotpink 10px;
+    transition: all .5s ease-in;
+}
+h2, p, button {
+    margin: 1rem;
+}
+.card img {
+    width: 100%;
+}
+button {
+    width: 5rem;
+    height: 2rem;
+    border: solid #6ee7db 3px;
+    background-color: #eb2186;
+    color: #5ad0c4;
+}
+
+@media screen and (max-width: 800px) {
+    .card {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .card {
+        width: 90%;
+    }
+}

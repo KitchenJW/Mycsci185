@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+section {
+    height: 100vw;
+    border: solid black 1px;
+}
+.hide {
+    display: none;
+}
+.scene1 {
+    background-color: purple;
+}
+.scene2 {
+    background-color: green;
+}
+.scene3 {
+    background-color: blue;
+}

@@ -1,0 +1,77 @@
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c7937e;
+}
+
+/*
+Add some style blocks below this line to style the cards.
+Feel free to borrow from Exercise 1.
+*/
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+section {
+    width: 40%;
+}
+
+img {
+    width: 80%;
+}
+
+section p,
+section button {
+    margin: 1rem;
+    line-height: 1.5rem;
+}
+
+p {
+    width: 75%;
+}
+
+button {
+    background-color: #be9ae1;
+    border: outset 2px #2d0851;
+}
+
+button:hover,
+button:visited {
+    background-color: #893bd7;
+    border: outset 3px #2d0851;
+    color: #c7937e;
+}
+
+button:active {
+    background-color: #be9ae1;
+    border: inset 2px #2d0851;
+    color: azure;
+}
+
+/* Tablet Media Query */
+@media only screen and (max-width: 1000px) {
+    main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section {
+        width: 75%;
+    }
+}
+
+/* Mobile Phone Media Query */
+@media only screen and (max-width: 600px) {
+    section {
+        width: 90%;
+    }
+}
