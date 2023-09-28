@@ -141,3 +141,7 @@ function yard() {
         }
     }
 }
+function play() {
+    let audio = document.querySelector("audio");
+    audio.play();
+}
