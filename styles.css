@@ -1,120 +1,131 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #3d063d;
-    background-image: radial-gradient(at top left, #289f60 20%, #68d49a, #343487, #a220a2);
+  margin: 0px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #3d063d;
+  background-image: radial-gradient(
+    at top left,
+    #289f60 20%,
+    #68d49a,
+    #343487,
+    #a220a2
+  );
 }
 
 header {
-    display: grid;
-    grid-template-columns: 30% 70%;
-    text-align: left;
-    margin: 0.25rem;
-    padding: 0.25rem;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  text-align: left;
+  margin: 0.25rem;
+  padding: 0.25rem;
 }
 
 header div {
-    max-width: 100%;
-    margin: 0rem;
-    padding: 1rem;
+  max-width: 100%;
+  margin: 0rem;
+  padding: 1rem;
 }
 
 header img {
-    max-width: 25%;
-    margin-right: 1rem;
-    padding: 0rem;
-    float: left;
-    border-radius: 50%;
+  max-width: 25%;
+  margin-right: 1rem;
+  padding: 0rem;
+  float: left;
+  border-radius: 50%;
 }
 
 main {
-    display: grid;
-    grid-template-columns: repeat(32%);
-    grid-template-rows: repeat(25%);
-    float: left;
-    column-gap: 1rem;
-    row-gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(32%);
+  grid-template-rows: repeat(25%);
+  float: left;
+  column-gap: 1rem;
+  row-gap: 1rem;
 }
 
 h1 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 h2 {
-    text-align: left;
-    margin: 0rem 0rem 0rem 3rem;
-    width: 100%;
+  text-align: left;
+  margin: 0rem 0rem 0rem 3rem;
+  width: 100%;
 }
 
 section {
-    margin: 0.5rem;
-    padding: 0.5rem;
-    float: left;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  float: left;
 }
 ul {
-    margin: 0rem;
+  margin: 0rem;
 }
 
 p,
 a,
 li {
-    line-height: 1.25rem;
-    font-size: 1.1rem;
-    color: #380538;
-    margin: 0rem;
-    padding: 0.5rem;
-    text-decoration: none;
-    list-style-type: none;
+  line-height: 1.25rem;
+  font-size: 1.1rem;
+  color: #380538;
+  margin: 0rem;
+  padding: 0.5rem;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 a:hover,
 a:active {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 #homework {
-    grid-column: 1;
-    display: flex;
-    flex-wrap: wrap;
+  grid-column: 1;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #tutorials {
-    grid-column: 2;
+  grid-column: 2;
 }
 
 #lectures {
-    grid-column: 1 / span 4;
-    display: flex;
-    flex-wrap: wrap;
+  grid-column: 1 / span 4;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #inspiration {
-    grid-column: 1;
-    grid-row: 3;
+  grid-column: 1;
+  grid-row: 3;
 }
 
 #class-exercises {
-    grid-column: 4;
-    grid-row: 1;
+  grid-column: 4;
+  grid-row: 1;
 }
 
-@media(max-width:800px) {
-    #main {
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: repeat(auto);
-    }
+#docs {
+  grid-column: 2;
+  grid-row: 3;
+}
 
-    #tutorials,
-    #lectures,
-    #homework,
-    #inspiration,
-    #class-exercises {
-        grid-column: 1;
-        grid-row: auto;
-    }
+@media (max-width: 800px) {
+  #main {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(auto);
+  }
+
+  #tutorials,
+  #lectures,
+  #homework,
+  #inspiration,
+  #class-exercises {
+    grid-column: 1;
+    grid-row: auto;
+  }
 }
