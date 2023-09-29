@@ -1,0 +1,62 @@
+body {
+    box-sizing: border-box;
+    background-image: url(images/20230925_071229.jpg);
+    background-size: 100vw 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+
+img {
+    margin-left: 3rem;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+}
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #050557;}
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #050557;
+}
+
+article {
+    text-align: left;
+    font-size: 1rem;
+    color: #050557;
+}
+
+aside {
+    margin-left: 3rem;
+    width: 40vw;
+    display: flex;
+    float: left;
+}
+
+button {
+    margin-top: 3rem;
+    width: 10rem;
+    height: 3rem;
+    background-color: #050557;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4d4db4;
+    color: #35dac1;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
